@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.counter-ui {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+input {
+  text-align: center;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  color: white;
+  font-weight: lighter;
+  background-color: steelblue;
+  margin-bottom: .5rem;
+  line-height: 1.4rem;
+}
