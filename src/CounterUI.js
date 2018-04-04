@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Destructuring props from parent
 const CounterUI = ({ increment, decrement, count}) => (
   <div>
     <div className="counter-title">
