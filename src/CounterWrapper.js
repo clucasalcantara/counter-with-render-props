@@ -8,6 +8,7 @@ class CounterWrapper extends Component {
     count: 0,
   }
   
+  // Define our methods to count
   increment = () => {
     const { count } = this.state
     return this.setState({ count: count + 1 })
@@ -22,6 +23,7 @@ class CounterWrapper extends Component {
     const { render } = this.props
     const { count } = this.state
     
+    // Share our methods and state
     return (
       <div className="App">
         {
